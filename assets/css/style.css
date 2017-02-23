@@ -1,7 +1,6 @@
 
 .YourName{
 	margin-top: -5.59em;
-	margin-left: 18.65%;
 	font-family: "Julius Sans One", sans-serif;
 	color: #fff;
 	background-color: #5AAF62;
@@ -125,9 +124,9 @@ body{
 	height: 1px;
 }
 #wrap{
-	width: 100%;
-	margin-top: 0%;
-	min-width: 85em;
+	width: 960px;
+	margin: 0 auto;
+
 }
 #wrapper{
 	display: block;
@@ -179,7 +178,8 @@ li a:hover {
     animation-fill-mode: backwards;
 }
 .navbar{
-	margin-right: 28%;
+	width: 960px;
+	margin: 0 auto;
 }
 @keyframes li{
     from {background-color: white;}
